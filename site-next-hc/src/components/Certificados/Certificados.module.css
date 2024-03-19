@@ -1,0 +1,15 @@
+.certificados h3,
+.certificados p{
+    text-align: center;
+}
+
+.certificados div{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.certificados img{
+    width: 120px;
+    margin-top: 10px;
+}
