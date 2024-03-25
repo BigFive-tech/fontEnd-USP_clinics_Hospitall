@@ -31,7 +31,6 @@ p{
   cursor: pointer;
   display: inline-block;
   transition: 0.1s;
-  text-transform: capitalize;
 }
 
 .btn.animate-btn{

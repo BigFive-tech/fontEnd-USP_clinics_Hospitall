@@ -30,7 +30,7 @@ export default function Home() {
         <Container
           titulo='Serviço Humanizado'
           texto='A equipe da Assessoria de Humanização do ICr concentra seus esforços no atendimento aos usuários (pacientes e acompanhantes), voluntários e colaboradores. Suas iniciativas humanizadoras abrangem diversas áreas de atuação, incluindo Práticas de Bem-Estar e Melhoria da Qualidade de Vida, Acolhimento, Cuidado, Ambiente, Educação Permanente, Expressões Artísticas e Culturais, bem como Práticas Inclusivas de Gestão.' 
-          textoBotao='contato'
+          textoBotao='Entrar em contato'
           path={servicoHumanizadoImg}
           index={2}
         />
