@@ -71,3 +71,87 @@
 .contato-info .right-side button{
   border: none;
 }
+
+.feedback {
+  position: fixed;
+  top: 50px;
+  left: 0;
+}
+
+.feedback p {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.sucesso {
+  background-color: #40ca70;
+  padding: 23px 0 0 2px;
+  width: 28vw;
+}
+
+
+.sucesso::after {
+  content: '';
+  background-color: #00ff59;
+  animation: animate-width 3s ease-out;
+  display: block;
+  height: 8px;
+  margin-top: 5px;
+  padding: 0;
+}
+
+.erro {
+  background-color: #c23c32;
+  padding: 23px 0 0 2px;
+  width: 28vw;
+}
+
+.erro::after {
+  content: '';
+  background-color: #f71000;
+  animation: animate-width 3s ease-out;
+  display: block;
+  height: 8px;
+  margin-top: 5px;
+  padding: 0;
+}
+
+@keyframes animate-width {
+  from{
+      width: 0%;
+  }
+  to{
+      width: 100%;
+  } 
+}
+
+@media (max-width: 830px) {
+  .contato .contato-info{
+    flex-direction: column-reverse;
+  }
+
+  .contato-info .right-side,
+  .contato-info .left-side{
+    width: 85%;
+  }
+
+  .contato-info .right-side{
+    margin-bottom: 30px;
+  }
+
+  .sucesso, .erro {
+    width: 52vw;
+  }
+
+  .certificados .container img{
+    width: 90px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .sucesso, .erro {
+    width: 75vw;
+  }
+}

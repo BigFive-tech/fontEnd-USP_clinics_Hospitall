@@ -64,10 +64,15 @@
       width: 100%;
   }
 
+
 }
 
 @media(max-width:500px){
   .faca-mais .faca-mais-text h3{
     font-size: 40px;
+  }
+
+  .order-invertida {
+    order: 1;
   }
 }

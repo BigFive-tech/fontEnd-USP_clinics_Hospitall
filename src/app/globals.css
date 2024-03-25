@@ -8,6 +8,7 @@
 }
 body{
   background-color: #f1f6fc31 ;
+  overflow-x: hidden;
 }
 
 section,footer{

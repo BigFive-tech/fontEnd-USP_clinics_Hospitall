@@ -64,3 +64,10 @@
 .depoimentos .card-item:hover .estrelas i{
   color: white;
 }
+
+
+@media (max-width: 830px) {
+  .depoimentos .card-item{
+    width: 100%;
+  }
+}

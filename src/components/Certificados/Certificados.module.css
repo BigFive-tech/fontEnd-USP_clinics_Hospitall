@@ -13,3 +13,9 @@
     width: 120px;
     margin-top: 10px;
 }
+
+@media (max-width: 750px) {
+    .certificados img {
+        width: 20%;
+    }
+}
