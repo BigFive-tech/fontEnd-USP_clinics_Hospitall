@@ -7,7 +7,7 @@ export default function Modal({ fechaModal, videoUrl }) {
       <div className={styles.fade} onClick={fechaModal}></div>
       <div className={styles['modal-item']}>
           <div className={styles["modal-item__header"]}>
-              <span classname={styles["close-modal"]} onClick={fechaModal}>
+              <span className={styles["close-modal"]} onClick={fechaModal}>
                 <IoMdCloseCircle />
               </span>
           </div>

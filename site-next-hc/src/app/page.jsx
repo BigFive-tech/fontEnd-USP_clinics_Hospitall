@@ -16,7 +16,7 @@ export default function Home() {
         <div>
           <h1>Instituto da Criança e do Adolescente</h1>
           <p>Prestar assistência de alta complexidade e de excelência ao recém-nascido, criança e adolescente, por meio de atendimento humanizado e interdisciplinar, integrado ao ensino e à pesquisa.</p>
-          <Link href="/contato" className={'btn animate-btn'}>Entrar em Contato</Link>
+          <Link href="/contato" className={'btn animate-btn'}>Contato</Link>
         </div>
       </Header>
       <section className={styles['faca-mais']}>

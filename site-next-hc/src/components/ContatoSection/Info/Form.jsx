@@ -43,6 +43,19 @@ export default function Form() {
     return
   }
 
+  function armazenaDados() {
+    localStorage.setItem(formData.nome, JSON.stringify(formData))
+  }
+
+  function limpaCampos() {
+    setFormData({
+      nome: '',
+      email: '',
+      assunto: '',
+      mensagem: ''
+    })
+  }
+
   function confirmaEnvioForm(e) {
     e.preventDefault()
     let validacao
@@ -59,6 +72,10 @@ export default function Form() {
     }
 
     mensagemDeFeedback(validacao)
+    if (validacao) {
+      armazenaDados()
+      limpaCampos()
+    }
     setTimeout(() => setFeedbackMessage(''), 3000)
     return
   }

@@ -12,7 +12,7 @@ export const containersData = [
   {
     titulo: 'Faça mais com o ICR',
     texto: 'Por meio de programas inovadores, eventos educativos e parcerias colaborativas, focamos em investir no desenvolvimento integral das crianças e adolescentes. Proporcionando um ambiente acolhedor e estimulante, a equipe dedicada procura impactar positivamente a vida dos pacientes, contribuindo para um futuro mais saudável e promissor. Faça mais com o ICR',
-    textoBotao: 'Entrar em contato',
+    textoBotao: 'contato',
     path: facaMais,
     index: 2
   },
