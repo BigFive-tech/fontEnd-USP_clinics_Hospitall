@@ -29,8 +29,17 @@ Se você deseja contribuir para o projeto, siga estas etapas:
 3. Faça suas alterações e adicione, commit e envie para o repositório remoto: `git add .`, `git commit -m "Adicionando minha feature"`, `git push origin minha-feature`.
 4. Crie um pull request no repositório original.
 
-## Autor
+## Autores
 
 Big-Five-tech
+
+| Nome                     | RM     |
+|--------------------------|--------|
+| Rafael de Almeida Sigoli| 554019 |
+| João Victor Seixos Flaitt| 553888 |
+| Lucca Enrico Zanelato Calsolari| 553678 |
+| Lucas Bertolassi Iori   | 553183 |
+| Miguel leal             | 553009 |
+
 
 
