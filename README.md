@@ -31,9 +31,6 @@ Se você deseja contribuir para o projeto, siga estas etapas:
 
 ## Autor
 
-Este projeto foi desenvolvido por [Seu Nome] e colaboradores.
+Big-Five-tech
 
-## Licença
-
-Este projeto está licenciado sob a Licença [Nome da Licença]. Consulte o arquivo LICENSE.md para obter mais detalhes.
 
