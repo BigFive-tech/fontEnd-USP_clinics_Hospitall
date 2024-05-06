@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import Header from "@/components/Header/Header";
 import Depoimentos from "@/components/Depoimentos/Depoimentos";
 import Certificados from "@/components/Certificados/Certificados";
-import Footer from "@/components/Footer/Footer";
+import Footer from "@/components/PrincipalComponents/Footer/Footer";
 
 import { containersData } from "@/data/containers-home";
 import servicoHumanizadoImg from '@/assets/imagem-servico_humanizado.jpg'

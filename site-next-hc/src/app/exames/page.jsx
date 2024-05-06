@@ -4,7 +4,7 @@ import styles from './page.module.css'
 import Header from "@/components/Header/Header";
 
 import { exames } from '@/data/exames';
-import Footer from '@/components/Footer/Footer';
+import Footer from '@/components/PrincipalComponents/Footer/Footer';
 
 export default function Exames() {
   return (

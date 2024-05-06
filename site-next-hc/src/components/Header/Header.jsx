@@ -9,6 +9,7 @@ export default function Header({ pathImg, children }) {
           <section className={styles.banner}>
             {children}
           </section>
+          <div></div>
       </div>
     </header>
   )

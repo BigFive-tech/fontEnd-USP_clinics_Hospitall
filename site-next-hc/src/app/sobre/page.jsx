@@ -3,7 +3,7 @@ import styles from './page.module.css'
 import Container from "@/components/Container/Container";
 import Header from "@/components/Header/Header";
 import Dados from '@/components/Dados/Dados'
-import Footer from '@/components/Footer/Footer';
+import Footer from '@/components/PrincipalComponents/Footer/Footer';
 
 import sobreImg from '@/assets/centro referencia.jpg'
 
